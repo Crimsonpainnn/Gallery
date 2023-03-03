@@ -266,29 +266,9 @@
                 <div class="tm-col tm-contact-col tm-contact-col-r">
                    
 <div>
-    <audio id="bg-music" autoplay loop>
-        <source src="Background Music/Aakhale.mp3" type="audio/mpeg">
-      </audio>
-      
-      <button id="play-pause-btn">Pause</button>
-      
-      <script>
-        var music = document.getElementById("bg-music");
-        var playPauseBtn = document.getElementById("play-pause-btn");
-      
-        function togglePlayPause() {
-          if (music.paused) {
-            music.play();
-            playPauseBtn.textContent = "Pause";
-          } else {
-            music.pause();
-            playPauseBtn.textContent = "Play";
-          }
-        }
-      
-        playPauseBtn.addEventListener("click", togglePlayPause);
-      </script>
-      
+   <div>  
+      <iframe style="display: none:" src="Background Music/Aakhale.mp3" allowfullscreen></iframe>
+</div>
 </div>
                    
                    
